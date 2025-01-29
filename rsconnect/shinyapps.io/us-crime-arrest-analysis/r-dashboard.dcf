@@ -1,0 +1,12 @@
+name: r-dashboard
+title: r-dashboard
+username: us-crime-arrest-analysis
+account: us-crime-arrest-analysis
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13841426
+bundleId: 9715738
+url: https://us-crime-arrest-analysis.shinyapps.io/r-dashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
