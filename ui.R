@@ -1,9 +1,9 @@
-## Shiny UI component for the Dashboard
+# Shiny UI component for the Dashboard
 
 dashboardPage(
   
   dashboardHeader(title="Exploring the 1973 US Arrests data with R & Shiny Dashboard", titleWidth = 650,
-                  tags$li(class="dropdown",tags$a(href="", icon("github"), "Source Code", target="_blank"))
+                  tags$li(class="dropdown",tags$a(href="https://github.com/madhavarora03/us-crime-arrest-analysis", icon("github"), "Source Code", target="_blank"))
   ),
   
   
@@ -34,7 +34,7 @@ dashboardPage(
                               fluidRow(
                                 column(width = 8, tags$img(src="crime.jpg", width =600 , height = 300),
                                        tags$br() , 
-                                       tags$a("Photo by Campbell Jensen on Unsplash"), align = "center"),
+                                       tags$a("Photo taken from https://www.tsiglerlaw.com/blog/staten-island-crime-rate/"), align = "center"),
                                 column(width = 4, tags$br() ,
                                        tags$p("This data set comes along with base R and contains statistics, in arrests per 100,000 residents for assault, murder, and rape in each of the 50 US states in 1973. Also, given is the percent of the population living in urban areas.")
                                 )

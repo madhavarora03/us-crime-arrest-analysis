@@ -16,7 +16,7 @@ library(shinycssloaders) # to add a loader while graph is populating
 #### Dataset Manipulation ####
 # USArrests dataset comes along with base R
 # you can view the data by simply
-# USArrests  # uncomment if running this
+?USArrests  # uncomment if running this
 
 ## create a states object from rownames 
 states = rownames(USArrests)
@@ -62,10 +62,5 @@ st = data.frame(abb = state.abb, stname=tolower(state.name), x=state.center$x, y
 # left_join from dplyr package
 # there is no abbreviation available for District of Columbia and hence those rows will be dropped in the outcome
 new_join = left_join(merged, st, by=c("State" = "stname"))
-
-
-
-
-
 
 
